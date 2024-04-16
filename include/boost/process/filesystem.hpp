@@ -8,6 +8,7 @@
 #ifdef BOOST_PROCESS_USE_STD_FS
 #include <filesystem>
 #else
+#include <boost/filesystem/directory.hpp>
 #include <boost/filesystem/path.hpp>
 #include <boost/filesystem/operations.hpp>
 #endif
